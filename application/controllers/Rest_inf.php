@@ -6,7 +6,7 @@ class Rest_inf extends CI_Controller
 {
 	public function information()
 	{
-		if(!$this->session->userdata('logged_in') && $this->session->userdata('role_id')!=2)
+		if(!$this->session->userdata('logged_in') && $this->session->userdata('role_id')!='2')
 		{
 			redirect ('auth/login');
 		}
