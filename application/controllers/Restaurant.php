@@ -6,7 +6,9 @@ class Restaurant extends CI_Controller
 {
 	public function home()
 	{
-		if(!$this->session->userdata('logged_in') && $this->session->userdata('role_id')!='2')
+		$role_id=$this->session->userdata('role_id');
+
+		if(!$this->session->userdata('logged_in') && $role_id !='2')
 		{
 			redirect ('auth/login');
 		}
