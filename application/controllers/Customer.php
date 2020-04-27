@@ -10,10 +10,9 @@ class Customer extends CI_Controller
 		{
 			redirect ('auth/login');
 		}
-		echo <pre>;
+		
 		$data=$this->session->userdata();
 		print_r($data);
-		echo </pre>;
 		die();
 		$this->load->view('customer_home');
 
