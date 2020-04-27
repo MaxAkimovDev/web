@@ -8,7 +8,7 @@ class Customer extends CI_Controller
 	{
 		$role_id=$this->session->userdata('role_id');
 
-		if(!$this->session->userdata('logged_in') && $role_id !='1')
+		if(!$this->session->userdata('logged_in') || $role_id !='1')
 		{
 			redirect ('auth/login');
 		}
