@@ -92,7 +92,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <p>Restaurant Name</p><p><input type="text" value=" <?php echo set_value("name") ?>" name="name"/></p>
           <?php $error =form_error("email", "<small class='text-danger'>", "</small>");?>
 
-          <p>Email</p><p><input type="email" value="<?php echo set_value("email") ?>" name="email"/></p>
+          <p>Email</p><p><input type="email" id="email" value="<?php echo set_value("email") ?>" name="email"/></p>
           <?php $error =form_error("email", "<small class='text-danger'>", "</small>");?>
           <span id="email-checked">  </span>
           <p>Password</p><p><input type="password"   name="password"/></p>
@@ -289,7 +289,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
    {
 
     $.ajax({
-     url: base_url+'index.php/auth/email_availability',
+     url: base_url+'index.php/auth/email_availability_rest',
      method: "POST",
      data: {email:email},
      success:function(data) {

@@ -133,7 +133,7 @@ class Auth extends CI_Controller
 	  public function email_availability_rest()
 	  {
 		$this->load->model('Auth_model', 'auth_rest');
-		if($this->auth->email_is_available_rest($_POST['email']))
+		if($this->auth_rest->email_is_available_rest($_POST['email']))
 		{
 			echo '<label class="text-danger"><span class="glyphicon glyphicon-remove"></span> Email is already registered</label>';
 		}
