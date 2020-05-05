@@ -94,7 +94,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
           <p>Email</p><p><input type="email" value="<?php echo set_value("email") ?>" name="email"/></p>
           <?php $error =form_error("email", "<small class='text-danger'>", "</small>");?>
-          
+          <span id="email-checked">  </span>
           <p>Password</p><p><input type="password"   name="password"/></p>
           <?php $error =form_error("password", "<small class='text-danger'>", "</small>");?>
           
@@ -277,6 +277,30 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="<?php echo base_url() ?>assets/js/google-map.js"></script>
   <script src="<?php echo base_url() ?>assets/js/main.js"></script>
-    
+  <script> 
+  base_url = '<?php echo base_url(); ?>';
+   $(document).ready(function() {
+
+    $('#email').change(function() {
+
+     var email=$('#email').val();
+
+     if(email!='')
+   {
+
+    $.ajax({
+     url: base_url+'index.php/auth/email_availability',
+     method: "POST",
+     data: {email:email},
+     success:function(data) {
+
+      $('#email-checked').html(data);
+     }
+
+    })
+   }
+    })
+   })
+  </script>
   </body>
 </html>
