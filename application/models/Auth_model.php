@@ -114,7 +114,22 @@ class Auth_model extends CI_Model
  		$query = $this->db->get();
  		return $query->result();
  		
- 	}
+	 }
+	 public function email_is_available($email)
+	 {
+		$this->db->select('*');
+ 		$this->db->from('user');
+ 		$this->db->where('email',$email);
+ 		$query = $this->db->get();
+		 if ($query->num_rows()>0)
+		 {
+			 return true;
+		 }
+		 else
+		 {
+			return false;
+		 }
+	 }
 
 
 
