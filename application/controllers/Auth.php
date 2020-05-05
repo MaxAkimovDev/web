@@ -117,7 +117,6 @@ class Auth extends CI_Controller
 		   $this->load->view('registration_user');
   	}
 
-	  }
 	  public function email_availability()
 	  {
 		$this->load->model('Auth_model', 'auth');
@@ -131,6 +130,7 @@ class Auth extends CI_Controller
 		}
 
 	  }
+}
 
 
 
