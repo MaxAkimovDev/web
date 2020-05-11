@@ -154,7 +154,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         	</div>
         	<div class="col-lg-3 d-flex mb-sm-4 ftco-animate">
         		<div class="staff">
-      				<div class="img mb-4" style="background-image: url(<?php echo base_url(); ?>assets/images/person_3.jpg);"></div>
+      				<div class="img mb-4" style="background-image: url(<?php echo base_url(); ?>assets/images/person_Yana.jpg);"></div>
       				<div class="info text-center">
       					<h3>Yana Taranets</h3>
       					<span class="position">Student-developer</span>
