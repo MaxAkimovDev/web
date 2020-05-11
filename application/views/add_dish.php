@@ -112,7 +112,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   </td>
                 </tr>
             </table >
-            <table width="10%" height="20%" align="center" border="1" bordercolor="black">
+            <table width="10%" height="10%" align="center" border="1">
               <tr>
                   <td>
                     <button type='submit'><img src="https://img.icons8.com/material/48/000000/upload--v1.png"/>Add</button> 
@@ -167,7 +167,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
              <div class="ftco-footer-widget mb-4 ml-md-4">
               <h2 class="ftco-heading-2">Functions</h2>
               <ul class="list-unstyled">
-                <li><a href="<?php echo base_url(); ?>index.php/add/add_dish" class="py-2 d-block">Add dish</a></li>
+                <li><a href="<?php echo base_url(); ?>index.php/restaurant/home" class="py-2 d-block">Home</a></li>
                 <li><a href="<?php echo base_url(); ?>index.php/list_dish/dish_list" class="py-2 d-block">List of dishes</a></li>
                 <li><a href="<?php echo base_url(); ?>index.php/rest_inf/information" class="py-2 d-block">Restaurant information</a></li>
                 <li><a href="<?php echo base_url(); ?>index.php/auth/logout" class="py-2 d-block">Log out</a></li>
