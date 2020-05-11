@@ -30,12 +30,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/icomoon.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
 
-    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
 </head>
   <body>
   	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-		      <a class="navbar-brand" href="<?php echo base_url(); ?>index.php/home/index"><img src="<?php echo base_url(); ?>assets/images/pizza.svg"><!-- <span class="flaticon-pizza-1 mr-1"></span> -->Food<br><small>Runner</small></a>
+		      <a class="navbar-brand" href="<?php echo base_url(); ?>index.php/home/index"><img src="<?php echo base_url(); ?>favicon-32x32.png"><!-- <span class="flaticon-pizza-1 mr-1"></span> -->Food<br><small>Runner</small></a>
 		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 		        <span class="oi oi-menu"></span> Menu
 		      </button>
