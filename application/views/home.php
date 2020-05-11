@@ -35,7 +35,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	    <div class="container">
 		      <a class="navbar-brand" href="<?php echo base_url(); ?>index.php/home/index"><img src="https://img.icons8.com/cotton/64/000000/trainers.png"/><!-- <span class="flaticon-pizza-1 mr-1"></span> -->Food<br><small>Runner</small></a>
 		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-		        <span class="oi oi-menu"></span> Menu
+          <img src="https://img.icons8.com/android/24/000000/menu.png"/> Menu
 		      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
