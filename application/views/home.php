@@ -211,7 +211,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		            <div class="block-18 text-center">
 		              <div class="text">
 		              	<div class="icon"><img src="https://img.icons8.com/bubbles/64/000000/globe-earth.png"/></div>
-		              	<strong class="number" data-number="2432">0</strong>
+		              	<strong class="number" data-number="2432"></strong>
 		              	<span>Dishes from around the world</span>
 		              </div>
 		            </div>
@@ -220,7 +220,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		            <div class="block-18 text-center">
 		              <div class="text">
 		              	<div class="icon"><img src="https://img.icons8.com/color/64/000000/prize.png"/></div>
-		              	<strong class="number" data-number="85">0</strong>
+		              	<strong class="number" data-number="85"></strong>
 		              	<span>Number of Awards</span>
 		              </div>
 		            </div>
@@ -229,7 +229,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		            <div class="block-18 text-center">
 		              <div class="text">
 		              	<div class="icon"><img src="https://img.icons8.com/color/64/000000/winner.png"/></div>
-		              	<strong class="number" data-number="102475">0</strong>
+		              	<strong class="number" data-number="102475"></strong>
 		              	<span>Happy Customer</span>
 		              </div>
 		            </div>
@@ -238,7 +238,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		            <div class="block-18 text-center">
 		              <div class="text">
 		              	<div class="icon"><img src="https://img.icons8.com/color/64/000000/restaurant-table.png"/></div>
-		              	<strong class="number" data-number="2234">0</strong>
+		              	<strong class="number" data-number="2234"></strong>
 		              	<span>Restaurants</span>
 		              </div>
 		            </div>
@@ -411,9 +411,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <h2 class="ftco-heading-2">Have a Questions?</h2>
               <div class="block-23 mb-3">
                 <ul>
-                  <li><img src="https://img.icons8.com/ios/48/000000/marker.png"/><span class="text">Campus Las Lagunillas, s/n, 23071 Jaén</span></li>
-                  <li><img src="https://img.icons8.com/ios/48/000000/number-pad.png"/><span class="text">+34631673280</span></li>
-                  <li><img src="https://img.icons8.com/ios/48/000000/filled-message.png"/><span class="text">info@foodrunner.com</span></li>
+                  <li><img src="https://img.icons8.com/ios/24/000000/marker.png"/><span class="text">Campus Las Lagunillas, s/n, 23071 Jaén</span></li>
+                  <li><img src="https://img.icons8.com/ios/24/000000/number-pad.png"/><span class="text">+34631673280</span></li>
+                  <li><img src="https://img.icons8.com/ios/24/000000/filled-message.png"/><span class="text">info@foodrunner.com</span></li>
                 </ul>
               </div>
             </div>
