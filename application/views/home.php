@@ -169,7 +169,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-md-4 ftco-animate">
             <div class="media d-block text-center block-6 services">
               <div class="icon d-flex justify-content-center align-items-center mb-5">
-              <img src="https://img.icons8.com/color/48/000000/healthy-food-calories-calculator.png"/>
+              <img src="https://img.icons8.com/color/64/000000/healthy-food-calories-calculator.png"/>
               </div>
               <div class="media-body">
                 <h3 class="heading">Healthy Foods</h3>
@@ -180,7 +180,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-md-4 ftco-animate">
             <div class="media d-block text-center block-6 services">
               <div class="icon d-flex justify-content-center align-items-center mb-5">
-              	<span class="flaticon-bicycle"></span>
+              <img src="https://img.icons8.com/plasticine/64/000000/box-edit-1.png"/>
               </div>
               <div class="media-body">
                 <h3 class="heading">Fastest Delivery</h3>
@@ -190,7 +190,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <div class="col-md-4 ftco-animate">
             <div class="media d-block text-center block-6 services">
-              <div class="icon d-flex justify-content-center align-items-center mb-5"><span class="flaticon-pizza-1"></span></div>
+              <div class="icon d-flex justify-content-center align-items-center mb-5"><img src="https://img.icons8.com/color/64/000000/cookie.png"/></div>
               <div class="media-body">
                 <h3 class="heading">Original Recipes</h3>
                 <p>Only original recipes.</p>
