@@ -154,7 +154,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <h2 class="ftco-heading-2">Functions</h2>
               <ul class="list-unstyled">
                 <li><a href="<?php echo base_url(); ?>index.php/customer/home" class="py-2 d-block">Home</a></li>
-                <li><a href="<?php echo base_url(); ?>index.php/list_dish/dish_list_cust" class="py-2 d-block">List of dishes</a></li>
                 <li><a href="<?php echo base_url(); ?>index.php/cust_inf/information" class="py-2 d-block">My information</a></li>
                 </li>
                 <li><a href="<?php echo base_url(); ?>index.php/auth/logout" class="py-2 d-block">Log out</a></li>
