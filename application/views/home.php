@@ -29,6 +29,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/flaticon.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/icomoon.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
+
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
 </head>
   <body>
   	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
