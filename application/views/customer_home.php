@@ -34,9 +34,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
       <div class="container">
-          <a class="navbar-brand" href="<?php echo base_url(); ?>index.php/customer/home"><span class="flaticon-pizza-1 mr-1"></span>Food<br><small>Runner</small></a>
+          <a class="navbar-brand" href="<?php echo base_url(); ?>index.php/customer/home"><img src="https://img.icons8.com/cotton/64/000000/trainers.png"/>Food<br><small>Runner</small></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="oi oi-menu"></span> Menu
+          <img src="https://img.icons8.com/plasticine/32/000000/squared-menu.png"/> Menu
           </button>
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav ml-auto">
@@ -57,7 +57,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="one-half img" style="background-image: url(<?php echo base_url(); ?>assets/images/about.jpg);"></div>
       <div class="one-half ftco-animate">
         <div class="heading-section ftco-animate ">
-          <h2 class="mb-4">Welcome to <span class="flaticon-pizza">Food Runner</span></h2>
+          <h2 class="mb-4">Welcome to <img src="https://img.icons8.com/doodle/48/000000/pizza--v1.png"/>Food Runner</span></h2>
         </div>
         <div>
           <p>Glad to see you in our service.</p>
@@ -67,19 +67,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
     <section class="ftco-section ftco-services">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-3">
+    	<div class="overlay"></div>
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section ftco-animate text-center">
             <h2 class="mb-4">Our advantages</h2>
             <p>We provide clients:</p>
           </div>
         </div>
-        <div class="row">
+    		<div class="row">
           <div class="col-md-4 ftco-animate">
             <div class="media d-block text-center block-6 services">
               <div class="icon d-flex justify-content-center align-items-center mb-5">
-                <span class="flaticon-diet"></span>
+              <img src="https://img.icons8.com/color/64/000000/healthy-food-calories-calculator.png"/>
               </div>
               <div class="media-body">
                 <h3 class="heading">Healthy Foods</h3>
@@ -90,7 +90,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-md-4 ftco-animate">
             <div class="media d-block text-center block-6 services">
               <div class="icon d-flex justify-content-center align-items-center mb-5">
-                <span class="flaticon-bicycle"></span>
+              <img src="https://img.icons8.com/plasticine/64/000000/box-edit-1.png"/>
               </div>
               <div class="media-body">
                 <h3 class="heading">Fastest Delivery</h3>
@@ -100,7 +100,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <div class="col-md-4 ftco-animate">
             <div class="media d-block text-center block-6 services">
-              <div class="icon d-flex justify-content-center align-items-center mb-5"><span class="flaticon-pizza-1"></span></div>
+              <div class="icon d-flex justify-content-center align-items-center mb-5"><img src="https://img.icons8.com/color/64/000000/cookie.png"/></div>
               <div class="media-body">
                 <h3 class="heading">Original Recipes</h3>
                 <p>Only original recipes.</p>
@@ -108,91 +108,93 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>    
           </div>
         </div>
-      </div>
+    	</div>
     </section>
 
+
     <section class="ftco-intro">
-      <div class="container-wrap">
-        <div class="wrap d-md-flex">
-          <div class="info">
-            <div class="row no-gutters">
+    	<div class="container-wrap">
+    		<div class="wrap d-md-flex">
+	    		<div class="info">
+	    			<div class="row no-gutters">
+	    				<div class="col-md-4 d-flex ftco-animate">
+	    					<div class="icon"><img src="https://img.icons8.com/color/24/000000/ringing-phone.png"/></div>
+	    					<div class="text">
+	    						<h3>+34631673280</h3>
+	    						<p>Сall us in any time</p>
+	    					</div>
+	    				</div>
               <div class="col-md-4 d-flex ftco-animate">
-                <div class="icon"><span class="icon-phone"></span></div>
-                <div class="text">
-                  <h3>+34631673280</h3>
-                  <p>Сall us in any time</p>
-                </div>
-              </div>
-              <div class="col-md-4 d-flex ftco-animate">
-                <div class="icon"><span class="icon-phone"></span></div>
+                <div class="icon"><img src="https://img.icons8.com/color/24/000000/ringing-phone.png"/></div>
                 <div class="text">
                   <h3>+34633445669</h3>
                   <p>Сall us in any time</p>
                 </div>
               </div>
-              <div class="col-md-4 d-flex ftco-animate">
-                <div class="icon"><span class="icon-clock-o"></span></div>
-                <div class="text">
-                  <h3>Open Monday-Friday</h3>
-                  <p>8:00am - 9:00pm</p>
-                </div>
-              </div>
-            </div>
-          </div>
+	    				<div class="col-md-4 d-flex ftco-animate">
+	    					<div class="icon"><img src="https://img.icons8.com/color/24/000000/door.png"/></div>
+	    					<div class="text">
+	    						<h3>Open Monday-Friday</h3>
+	    						<p>8:00am - 9:00pm</p>
+	    					</div>
+	    				</div>
+	    			</div>
+	    		</div>
           <div class="social d-md-flex pl-md-5 p-4 align-items-center">
             <ul class="social-icon">
-              <li class="ftco-animate"><a href="https://twitter.com/login"><span class="icon-twitter"></span></a></li>
-              <li class="ftco-animate"><a href="https://www.facebook.com/"><span class="icon-facebook"></span></a></li>
-              <li class="ftco-animate"><a href="https://www.instagram.com/?hl=en"><span class="icon-instagram"></span></a></li>
+              <li class="ftco-animate"><a href="https://twitter.com/login"><img src="https://img.icons8.com/doodle/24/000000/old-twitter-logo.png"/></a></li>
+              <li class="ftco-animate"><a href="https://www.facebook.com/"><img src="https://img.icons8.com/doodle/24/000000/facebook-new.png"/></a></li>
+              <li class="ftco-animate"><a href="https://www.instagram.com/?hl=en"><img src="https://img.icons8.com/doodle/24/000000/instagram--v1.png"/></a></li>
             </ul>
           </div>
-        </div>
-      </div>
+    		</div>
+    	</div>
     </section>
+
     <section class="ftco-counter ftco-bg-dark img" id="section-counter" style="background-image: url(<?php echo base_url(); ?>assets/images/bg_2.jpg);" data-stellar-background-ratio="0.5">
-      <div class="overlay"></div>
+			<div class="overlay"></div>
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-md-10">
-            <div class="row">
-              <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-                <div class="block-18 text-center">
-                  <div class="text">
-                    <div class="icon"><span class="flaticon-pizza-1"></span></div>
-                    <strong class="number" data-number="2432">0</strong>
-                    <span>Dishes from around the world</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-                <div class="block-18 text-center">
-                  <div class="text">
-                    <div class="icon"><span class="flaticon-medal"></span></div>
-                    <strong class="number" data-number="85">0</strong>
-                    <span>Number of Awards</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-                <div class="block-18 text-center">
-                  <div class="text">
-                    <div class="icon"><span class="flaticon-laugh"></span></div>
-                    <strong class="number" data-number="102475">0</strong>
-                    <span>Happy Customer</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-                <div class="block-18 text-center">
-                  <div class="text">
-                    <div class="icon"><span class="flaticon-chef"></span></div>
-                    <strong class="number" data-number="2234">0</strong>
-                    <span>Restaurants</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        	<div class="col-md-10">
+        		<div class="row">
+		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		              	<div class="icon"><img src="https://img.icons8.com/bubbles/64/000000/globe-earth.png"/></div>
+		              	<strong class="number" data-number="2432"></strong>
+		              	<span>Dishes from around the world</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		              	<div class="icon"><img src="https://img.icons8.com/color/64/000000/prize.png"/></div>
+		              	<strong class="number" data-number="85"></strong>
+		              	<span>Number of Awards</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		              	<div class="icon"><img src="https://img.icons8.com/color/64/000000/winner.png"/></div>
+		              	<strong class="number" data-number="102475"></strong>
+		              	<span>Happy Customer</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		              	<div class="icon"><img src="https://img.icons8.com/color/64/000000/restaurant-table.png"/></div>
+		              	<strong class="number" data-number="2234"></strong>
+		              	<span>Restaurants</span>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+		      </div>
         </div>
       </div>
     </section>
@@ -309,9 +311,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <h2 class="ftco-heading-2">About Us</h2>
               <p>We are a service for searching, buying and providing dishes from restaurants.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="https://twitter.com/login"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="https://www.facebook.com/"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="https://www.instagram.com/?hl=en"><span class="icon-instagram"></span></a></li>
+              <li class="ftco-animate"><a href="https://twitter.com/login"><img src="https://img.icons8.com/doodle/48/000000/old-twitter-logo.png"/></a></li>
+              <li class="ftco-animate"><a href="https://www.facebook.com/"><img src="https://img.icons8.com/doodle/48/000000/facebook-new.png"/></a></li>
+              <li class="ftco-animate"><a href="https://www.instagram.com/?hl=en"><img src="https://img.icons8.com/doodle/48/000000/instagram--v1.png"/></a></li>
               </ul>
             </div>
           </div>
@@ -323,9 +325,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="text">
                   <h3 class="heading"><a href="https://www.discusscooking.com/forums/">How prepare the tastiest pasta</a></h3>
                   <div class="meta">
-                    <div><span class="icon-calendar"></span> Jan 15, 2020</div>
-                    <div><span class="icon-person"></span> Fred Trix</div>
-                    <div><span class="icon-chat"></span> 19</div>
+                    <div><img src="https://img.icons8.com/ios/16/000000/calendar-12.png"/> Jan 15, 2020</div>
+                    <div><img src="https://img.icons8.com/ios/16/000000/standing-man.png"/> Fred Trix</div>
+                    <div><img src="https://img.icons8.com/ios/16/000000/chat.png"/> 19</div>
                   </div>
                 </div>
               </div>
@@ -334,9 +336,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="text">
                   <h3 class="heading"><a href="https://www.discusscooking.com/forums/">How to make pasta even tastier</a></h3>
                   <div class="meta">
-                    <div><span class="icon-calendar"></span> Mar 5, 2020</div>
-                    <div><span class="icon-person"></span> Lisa Berry</div>
-                    <div><span class="icon-chat"></span> 25</div>
+                    <div><img src="https://img.icons8.com/ios/16/000000/calendar-12.png"/> Mar 5, 2020</div>
+                    <div><img src="https://img.icons8.com/ios/16/000000/standing-man.png"/> Lisa Berry</div>
+                    <div><img src="https://img.icons8.com/ios/16/000000/chat.png"/> 25</div>
                   </div>
                 </div>
               </div>
@@ -344,13 +346,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <div class="col-lg-2 col-md-6 mb-5 mb-md-5">
              <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">Functions</h2>
+              <h2 class="ftco-heading-2">Services</h2>
               <ul class="list-unstyled">
-                <li><a href="<?php echo base_url(); ?>index.php/list_dish/dish_list_cust" class="py-2 d-block">List of dishes</a></li>
-                <li><a href="<?php echo base_url(); ?>index.php/cust_inf/information" class="py-2 d-block">My information</a></li>
-                </li>
-                <li><a href="<?php echo base_url(); ?>index.php/auth/logout" class="py-2 d-block">Log out</a></li>
-                <li></li>
+                <li>Cooked</li>
+                <li>Deliver</li>
+                <li>Quality Foods</li>
+                <li>Mixed</li>
               </ul>
             </div>
           </div>
@@ -359,9 +360,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <h2 class="ftco-heading-2">Have a Questions?</h2>
               <div class="block-23 mb-3">
                 <ul>
-                  <li><span class="icon icon-map-marker"></span><span class="text">Campus Las Lagunillas, s/n, 23071 Jaén</span></li>
-                  <li><span class="icon icon-phone"></span><span class="text">+34631673280</span></li>
-                  <li><span class="icon icon-envelope"></span><span class="text">info@foodrunner.com</span></li>
+                  <li><img src="https://img.icons8.com/ios/24/000000/marker.png"/><span class="text"> Campus Las Lagunillas, s/n, 23071 Jaén</span></li>
+                  <li><img src="https://img.icons8.com/ios/24/000000/number-pad.png"/><span class="text"> +34631673280</span></li>
+                  <li><img src="https://img.icons8.com/ios/24/000000/filled-message.png"/><span class="text"> info@foodrunner.com</span></li>
                 </ul>
               </div>
             </div>
