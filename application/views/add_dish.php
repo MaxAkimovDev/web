@@ -112,10 +112,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   </td>
                 </tr>
             </table >
-            <table width="10%" height="10%" align="center" border="1">
+            <table align="center">
               <tr>
                   <td>
-                    <button type='submit'><img src="https://img.icons8.com/material/48/000000/upload--v1.png"/>Add</button> 
+                    <button type='submit'><img src="https://img.icons8.com/material/48/000000/upload--v1.png"/><span>Add</span></button> 
                     <?php echo form_close() ?>
                   </td>
               </tr>
