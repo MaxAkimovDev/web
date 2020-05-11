@@ -210,7 +210,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
 		            <div class="block-18 text-center">
 		              <div class="text">
-		              	<div class="icon"><img src="https://img.icons8.com/bubbles/48/000000/globe-earth.png"/></div>
+		              	<div class="icon"><img src="https://img.icons8.com/bubbles/64/000000/globe-earth.png"/></div>
 		              	<strong class="number" data-number="2432">0</strong>
 		              	<span>Dishes from around the world</span>
 		              </div>
@@ -219,7 +219,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
 		            <div class="block-18 text-center">
 		              <div class="text">
-		              	<div class="icon"><img src="https://img.icons8.com/color/48/000000/prize.png"/></div>
+		              	<div class="icon"><img src="https://img.icons8.com/color/64/000000/prize.png"/></div>
 		              	<strong class="number" data-number="85">0</strong>
 		              	<span>Number of Awards</span>
 		              </div>
@@ -228,7 +228,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
 		            <div class="block-18 text-center">
 		              <div class="text">
-		              	<div class="icon"><img src="https://img.icons8.com/color/48/000000/winner.png"/></div>
+		              	<div class="icon"><img src="https://img.icons8.com/color/64/000000/winner.png"/></div>
 		              	<strong class="number" data-number="102475">0</strong>
 		              	<span>Happy Customer</span>
 		              </div>
@@ -237,7 +237,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
 		            <div class="block-18 text-center">
 		              <div class="text">
-		              	<div class="icon"><img src="https://img.icons8.com/color/48/000000/restaurant-table.png"/></div>
+		              	<div class="icon"><img src="https://img.icons8.com/color/64/000000/restaurant-table.png"/></div>
 		              	<strong class="number" data-number="2234">0</strong>
 		              	<span>Restaurants</span>
 		              </div>
@@ -362,9 +362,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <h2 class="ftco-heading-2">About Us</h2>
               <p>We are a service for searching, buying and providing dishes from restaurants.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="https://twitter.com/login"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="https://www.facebook.com/"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="https://www.instagram.com/?hl=en"><span class="icon-instagram"></span></a></li>
+              <li class="ftco-animate"><a href="https://twitter.com/login"><img src="https://img.icons8.com/doodle/24/000000/old-twitter-logo.png"/></a></li>
+              <li class="ftco-animate"><a href="https://www.facebook.com/"><img src="https://img.icons8.com/doodle/24/000000/facebook-new.png"/></a></li>
+              <li class="ftco-animate"><a href="https://www.instagram.com/?hl=en"><img src="https://img.icons8.com/doodle/24/000000/instagram--v1.png"/></a></li>
               </ul>
             </div>
           </div>
@@ -387,9 +387,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="text">
                   <h3 class="heading"><a href="https://www.discusscooking.com/forums/">How to make pasta even tastier</a></h3>
                   <div class="meta">
-                    <div><span class="icon-calendar"></span> Mar 5, 2020</div>
-                    <div><span class="icon-person"></span> Lisa Berry</div>
-                    <div><span class="icon-chat"></span> 25</div>
+                    <div><img src="https://img.icons8.com/ios/16/000000/calendar-12.png"/> Mar 5, 2020</div>
+                    <div><img src="https://img.icons8.com/ios/16/000000/standing-man.png"/> Lisa Berry</div>
+                    <div><img src="https://img.icons8.com/ios/16/000000/chat.png"/> 25</div>
                   </div>
                 </div>
               </div>
