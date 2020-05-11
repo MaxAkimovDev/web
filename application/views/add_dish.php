@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Food Runer</title>
+  <title>Food Runner</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -36,9 +36,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
       <div class="container">
-          <a class="navbar-brand" href="<?php echo base_url(); ?>index.php/restaurant/home"><span class="flaticon-pizza-1 mr-1"></span>Food<br><small>Runner</small></a>
+          <a class="navbar-brand" href="<?php echo base_url(); ?>index.php/restaurant/home"><img src="https://img.icons8.com/cotton/64/000000/trainers.png"/>Food<br><small>Runner</small></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="oi oi-menu"></span> Menu
+          <img src="https://img.icons8.com/plasticine/32/000000/squared-menu.png"/> Menu
           </button>
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav ml-auto">
@@ -115,7 +115,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <table width="10%" height="20%" align="center" border="1" bordercolor="black">
               <tr>
                   <td>
-                    <button type='submit'><img width = "30%" height = "15%" src="<?php echo base_url(); ?>assets/images/Add.webp" alt="Add" >Add</button> 
+                    <button type='submit'><img src="https://img.icons8.com/material/48/000000/upload--v1.png"/>Add</button> 
                     <?php echo form_close() ?>
                   </td>
               </tr>
@@ -130,9 +130,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <h2 class="ftco-heading-2">About Us</h2>
               <p>We are a service for searching, buying and providing dishes from restaurants.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="https://twitter.com/login"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="https://www.facebook.com/"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="https://www.instagram.com/?hl=en"><span class="icon-instagram"></span></a></li>
+              <li class="ftco-animate"><a href="https://twitter.com/login"><img src="https://img.icons8.com/doodle/48/000000/old-twitter-logo.png"/></a></li>
+              <li class="ftco-animate"><a href="https://www.facebook.com/"><img src="https://img.icons8.com/doodle/48/000000/facebook-new.png"/></a></li>
+              <li class="ftco-animate"><a href="https://www.instagram.com/?hl=en"><img src="https://img.icons8.com/doodle/48/000000/instagram--v1.png"/></a></li>
               </ul>
             </div>
           </div>
@@ -144,9 +144,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="text">
                   <h3 class="heading"><a href="https://www.discusscooking.com/forums/">How prepare the tastiest pasta</a></h3>
                   <div class="meta">
-                    <div><span class="icon-calendar"></span> Jan 15, 2020</div>
-                    <div><span class="icon-person"></span> Fred Trix</div>
-                    <div><span class="icon-chat"></span> 19</div>
+                  <div><img src="https://img.icons8.com/ios/16/000000/calendar-12.png"/> Jan 15, 2020</div>
+                    <div><img src="https://img.icons8.com/ios/16/000000/standing-man.png"/> Fred Trix</div>
+                    <div><img src="https://img.icons8.com/ios/16/000000/chat.png"/> 19</div>
                   </div>
                 </div>
               </div>
@@ -155,9 +155,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="text">
                   <h3 class="heading"><a href="https://www.discusscooking.com/forums/">How to make pasta even tastier</a></h3>
                   <div class="meta">
-                    <div><span class="icon-calendar"></span> Mar 5, 2020</div>
-                    <div><span class="icon-person"></span> Lisa Berry</div>
-                    <div><span class="icon-chat"></span> 25</div>
+                    <div><img src="https://img.icons8.com/ios/16/000000/calendar-12.png"/> Mar 5, 2020</div>
+                    <div><img src="https://img.icons8.com/ios/16/000000/standing-man.png"/> Lisa Berry</div>
+                    <div><img src="https://img.icons8.com/ios/16/000000/chat.png"/> 25</div>
                   </div>
                 </div>
               </div>
@@ -165,12 +165,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <div class="col-lg-2 col-md-6 mb-5 mb-md-5">
              <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">Your functions</h2>
+              <h2 class="ftco-heading-2">Functions</h2>
               <ul class="list-unstyled">
                 <li><a href="<?php echo base_url(); ?>index.php/add/add_dish" class="py-2 d-block">Add dish</a></li>
                 <li><a href="<?php echo base_url(); ?>index.php/list_dish/dish_list" class="py-2 d-block">List of dishes</a></li>
                 <li><a href="<?php echo base_url(); ?>index.php/rest_inf/information" class="py-2 d-block">Restaurant information</a></li>
-                </li>
                 <li><a href="<?php echo base_url(); ?>index.php/auth/logout" class="py-2 d-block">Log out</a></li>
                 </li>
               </ul>
@@ -181,9 +180,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <h2 class="ftco-heading-2">Have a Questions?</h2>
               <div class="block-23 mb-3">
                 <ul>
-                  <li><span class="icon icon-map-marker"></span><span class="text">Campus Las Lagunillas, s/n, 23071 Jaén</span></li>
-                  <li><span class="icon icon-phone"></span><span class="text">+34631673280</span></li>
-                  <li><span class="icon icon-envelope"></span><span class="text">info@foodrunner.com</span></li>
+                <li><img src="https://img.icons8.com/ios/24/000000/marker.png"/><span class="text"> Campus Las Lagunillas, s/n, 23071 Jaén</span></li>
+                  <li><img src="https://img.icons8.com/ios/24/000000/number-pad.png"/><span class="text"> +34631673280</span></li>
+                  <li><img src="https://img.icons8.com/ios/24/000000/filled-message.png"/><span class="text"> info@foodrunner.com</span></li>
                 </ul>
               </div>
             </div>

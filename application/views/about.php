@@ -110,7 +110,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="one-half img" style="background-image: url(<?php echo base_url(); ?>assets/images/about.jpg);"></div>
       <div class="one-half ftco-animate">
         <div class="heading-section ftco-animate ">
-          <h2 class="mb-4"><img src="https://img.icons8.com/doodle/48/000000/pizza--v1.png"/>Food Runner</span></h2>
+          <h2 class="mb-4"><span><img src="https://img.icons8.com/doodle/48/000000/pizza--v1.png"/>Food Runner</span></h2>
         </div>
         <div>
           <p>A project designed to simplify the search for food. With the help of our service, any restaurants can publish a list of their available dishes, and the customer(client), viewing a list of all available dishes from different restaurants, quickly selects his favorite and orders it. The project is scalable and constantly under development.</p>
