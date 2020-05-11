@@ -57,7 +57,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="one-half img" style="background-image: url(<?php echo base_url(); ?>assets/images/about.jpg);"></div>
       <div class="one-half ftco-animate">
         <div class="heading-section ftco-animate ">
-          <h2 class="mb-4">Welcome to <img src="https://img.icons8.com/doodle/48/000000/pizza--v1.png"/>Food Runner</span></h2>
+          <h2 class="mb-4">Welcome to <span><img src="https://img.icons8.com/doodle/48/000000/pizza--v1.png"/>Food Runner</span></h2>
         </div>
         <div>
           <p>Glad to see you in our service.</p>
