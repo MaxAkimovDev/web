@@ -148,7 +148,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     	<div class="one-half img" style="background-image: url(<?php echo base_url(); ?>assets/images/about.jpg);"></div>
     	<div class="one-half ftco-animate">
         <div class="heading-section ftco-animate ">
-          <h2 class="mb-4">Welcome to <span class="flaticon-pizza">Food Runner</span></h2>
+          <h2 class="mb-4">Welcome to <img src="https://img.icons8.com/color/64/000000/broken-leg.png"/>Food Runner</span></h2>
         </div>
         <div>
   				<p>Fast and accurate delivery of orders from the kitchen to customer desks. Acting as a point of contact between the front of the house and the back of the house. Transferring food orders to cooks, focusing on priorities.</p>
