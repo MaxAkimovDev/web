@@ -33,7 +33,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <body>
   	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-		      <a class="navbar-brand" href="<?php echo base_url(); ?>index.php/home/index"><img src="<?php echo base_url(); ?>pizza.png"><!-- <span class="flaticon-pizza-1 mr-1"></span> -->Food<br><small>Runner</small></a>
+		      <a class="navbar-brand" href="<?php echo base_url(); ?>index.php/home/index"><img src="https://img.icons8.com/cotton/64/000000/italian-pizza.png"/><!-- <span class="flaticon-pizza-1 mr-1"></span> -->Food<br><small>Runner</small></a>
 		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 		        <span class="oi oi-menu"></span> Menu
 		      </button>
