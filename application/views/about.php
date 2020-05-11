@@ -110,7 +110,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="one-half img" style="background-image: url(<?php echo base_url(); ?>assets/images/about.jpg);"></div>
       <div class="one-half ftco-animate">
         <div class="heading-section ftco-animate ">
-          <h2 class="mb-4"><span class="flaticon-pizza">Food Runner</span></h2>
+          <h2 class="mb-4"><img src="https://img.icons8.com/doodle/48/000000/pizza--v1.png"/>Food Runner</span></h2>
         </div>
         <div>
           <p>A project designed to simplify the search for food. With the help of our service, any restaurants can publish a list of their available dishes, and the customer(client), viewing a list of all available dishes from different restaurants, quickly selects his favorite and orders it. The project is scalable and constantly under development.</p>
@@ -182,49 +182,49 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 		<section class="ftco-counter ftco-bg-dark img" id="section-counter" style="background-image: url(<?php echo base_url(); ?>assets/images/bg_2.jpg);" data-stellar-background-ratio="0.5">
-      <div class="overlay"></div>
+			<div class="overlay"></div>
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-md-10">
-            <div class="row">
-              <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-                <div class="block-18 text-center">
-                  <div class="text">
-                    <div class="icon"><span class="flaticon-pizza-1"></span></div>
-                    <strong class="number" data-number="2432">0</strong>
-                    <span>Dishes from around the world</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-                <div class="block-18 text-center">
-                  <div class="text">
-                    <div class="icon"><span class="flaticon-medal"></span></div>
-                    <strong class="number" data-number="85">0</strong>
-                    <span>Number of Awards</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-                <div class="block-18 text-center">
-                  <div class="text">
-                    <div class="icon"><span class="flaticon-laugh"></span></div>
-                    <strong class="number" data-number="102475">0</strong>
-                    <span>Happy Customer</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-                <div class="block-18 text-center">
-                  <div class="text">
-                    <div class="icon"><span class="flaticon-chef"></span></div>
-                    <strong class="number" data-number="2234">0</strong>
-                    <span>Restaurants</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        	<div class="col-md-10">
+        		<div class="row">
+		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		              	<div class="icon"><img src="https://img.icons8.com/bubbles/64/000000/globe-earth.png"/></div>
+		              	<strong class="number" data-number="2432"></strong>
+		              	<span>Dishes from around the world</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		              	<div class="icon"><img src="https://img.icons8.com/color/64/000000/prize.png"/></div>
+		              	<strong class="number" data-number="85"></strong>
+		              	<span>Number of Awards</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		              	<div class="icon"><img src="https://img.icons8.com/color/64/000000/winner.png"/></div>
+		              	<strong class="number" data-number="102475"></strong>
+		              	<span>Happy Customer</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		              	<div class="icon"><img src="https://img.icons8.com/color/64/000000/restaurant-table.png"/></div>
+		              	<strong class="number" data-number="2234"></strong>
+		              	<span>Restaurants</span>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+		      </div>
         </div>
       </div>
     </section>
