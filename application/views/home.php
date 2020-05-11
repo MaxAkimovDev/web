@@ -125,7 +125,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
               </div>
 	    				<div class="col-md-4 d-flex ftco-animate">
-	    					<div class="icon"><span class="icon-clock-o"></span></div>
+	    					<div class="icon"><img src="https://img.icons8.com/color/24/000000/door.png"/></div>
 	    					<div class="text">
 	    						<h3>Open Monday-Friday</h3>
 	    						<p>8:00am - 9:00pm</p>
