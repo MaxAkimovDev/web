@@ -210,7 +210,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
 		            <div class="block-18 text-center">
 		              <div class="text">
-		              	<div class="icon"><span class="flaticon-pizza-1"></span></div>
+		              	<div class="icon"><img src="https://img.icons8.com/bubbles/48/000000/globe-earth.png"/></div>
 		              	<strong class="number" data-number="2432">0</strong>
 		              	<span>Dishes from around the world</span>
 		              </div>
@@ -219,7 +219,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
 		            <div class="block-18 text-center">
 		              <div class="text">
-		              	<div class="icon"><span class="flaticon-medal"></span></div>
+		              	<div class="icon"><img src="https://img.icons8.com/color/48/000000/prize.png"/></div>
 		              	<strong class="number" data-number="85">0</strong>
 		              	<span>Number of Awards</span>
 		              </div>
@@ -228,7 +228,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
 		            <div class="block-18 text-center">
 		              <div class="text">
-		              	<div class="icon"><span class="flaticon-laugh"></span></div>
+		              	<div class="icon"><img src="https://img.icons8.com/color/48/000000/winner.png"/></div>
 		              	<strong class="number" data-number="102475">0</strong>
 		              	<span>Happy Customer</span>
 		              </div>
@@ -237,7 +237,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
 		            <div class="block-18 text-center">
 		              <div class="text">
-		              	<div class="icon"><span class="flaticon-chef"></span></div>
+		              	<div class="icon"><img src="https://img.icons8.com/color/48/000000/restaurant-table.png"/></div>
 		              	<strong class="number" data-number="2234">0</strong>
 		              	<span>Restaurants</span>
 		              </div>
