@@ -59,6 +59,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
         <div>
   				<p>Fast and accurate delivery of orders from the kitchen to customer desks. Acting as a point of contact between the front of the house and the back of the house. Transferring food orders to cooks, focusing on priorities.</p>
+          <p><a href="<?php echo base_url(); ?>index.php/auth/registration_restaurant">Not a customer? Click here.</a></p>
   			</div>
     	</div>
     </section>
