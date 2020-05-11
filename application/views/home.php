@@ -345,7 +345,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <?php echo form_error('message', '<span class="text-danger">','</span>'); ?>
               </div>
               <div class="form-group">
-                <button name="submit" type="submit" class="btn btn-primary" />Send</button>
+                <button name="submit" type="submit" class="btn btn-primary">Send</button>
                 
               </div>
             
@@ -362,9 +362,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <h2 class="ftco-heading-2">About Us</h2>
               <p>We are a service for searching, buying and providing dishes from restaurants.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-              <li class="ftco-animate"><a href="https://twitter.com/login"><img src="https://img.icons8.com/doodle/24/000000/old-twitter-logo.png"/></a></li>
-              <li class="ftco-animate"><a href="https://www.facebook.com/"><img src="https://img.icons8.com/doodle/24/000000/facebook-new.png"/></a></li>
-              <li class="ftco-animate"><a href="https://www.instagram.com/?hl=en"><img src="https://img.icons8.com/doodle/24/000000/instagram--v1.png"/></a></li>
+              <li class="ftco-animate"><a href="https://twitter.com/login"><img src="https://img.icons8.com/doodle/48/000000/old-twitter-logo.png"/></a></li>
+              <li class="ftco-animate"><a href="https://www.facebook.com/"><img src="https://img.icons8.com/doodle/48/000000/facebook-new.png"/></a></li>
+              <li class="ftco-animate"><a href="https://www.instagram.com/?hl=en"><img src="https://img.icons8.com/doodle/48/000000/instagram--v1.png"/></a></li>
               </ul>
             </div>
           </div>
@@ -376,9 +376,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="text">
                   <h3 class="heading"><a href="https://www.discusscooking.com/forums/">How prepare the tastiest pasta</a></h3>
                   <div class="meta">
-                    <div><span class="icon-calendar"></span> Jan 15, 2020</div>
-                    <div><span class="icon-person"></span> Fred Trix</div>
-                    <div><span class="icon-chat"></span> 19</div>
+                    <div><img src="https://img.icons8.com/ios/16/000000/calendar-12.png"/> Jan 15, 2020</div>
+                    <div><img src="https://img.icons8.com/ios/16/000000/standing-man.png"/> Fred Trix</div>
+                    <div><img src="https://img.icons8.com/ios/16/000000/chat.png"/> 19</div>
                   </div>
                 </div>
               </div>
@@ -411,9 +411,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <h2 class="ftco-heading-2">Have a Questions?</h2>
               <div class="block-23 mb-3">
                 <ul>
-                  <li><span class="icon icon-map-marker"></span><span class="text">Campus Las Lagunillas, s/n, 23071 Jaén</span></li>
-                  <li><span class="icon icon-phone"></span><span class="text">+34631673280</span></li>
-                  <li><span class="icon icon-envelope"></span><span class="text">info@foodrunner.com</span></li>
+                  <li><img src="https://img.icons8.com/ios/48/000000/marker.png"/><span class="text">Campus Las Lagunillas, s/n, 23071 Jaén</span></li>
+                  <li><img src="https://img.icons8.com/ios/48/000000/number-pad.png"/><span class="text">+34631673280</span></li>
+                  <li><img src="https://img.icons8.com/ios/48/000000/filled-message.png"/><span class="text">info@foodrunner.com</span></li>
                 </ul>
               </div>
             </div>

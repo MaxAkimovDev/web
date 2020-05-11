@@ -264,7 +264,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <?php echo form_error('message', '<span class="text-danger">','</span>'); ?>
               </div>
               <div class="form-group">
-                <button name="submit" type="submit" class="btn btn-primary" />Send</button>
+                <button name="submit" type="submit" class="btn btn-primary" >Send</button>
                 
               </div>
             </form>
