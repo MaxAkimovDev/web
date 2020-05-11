@@ -411,9 +411,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <h2 class="ftco-heading-2">Have a Questions?</h2>
               <div class="block-23 mb-3">
                 <ul>
-                  <li><img src="https://img.icons8.com/ios/24/000000/marker.png"/><span class="text">Campus Las Lagunillas, s/n, 23071 Jaén</span></li>
-                  <li><img src="https://img.icons8.com/ios/24/000000/number-pad.png"/><span class="text">+34631673280</span></li>
-                  <li><img src="https://img.icons8.com/ios/24/000000/filled-message.png"/><span class="text">info@foodrunner.com</span></li>
+                  <li><img src="https://img.icons8.com/ios/24/000000/marker.png"/><span class="text"> Campus Las Lagunillas, s/n, 23071 Jaén</span></li>
+                  <li><img src="https://img.icons8.com/ios/24/000000/number-pad.png"/><span class="text"> +34631673280</span></li>
+                  <li><img src="https://img.icons8.com/ios/24/000000/filled-message.png"/><span class="text"> info@foodrunner.com</span></li>
                 </ul>
               </div>
             </div>
