@@ -148,7 +148,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     	<div class="one-half img" style="background-image: url(<?php echo base_url(); ?>assets/images/about.jpg);"></div>
     	<div class="one-half ftco-animate">
         <div class="heading-section ftco-animate ">
-          <h2 class="mb-4">Welcome to <img src="https://img.icons8.com/cotton/44/000000/salami-pizza.png"/> Food Runner</h2>
+          <h2 class="mb-4">Welcome to <img src="https://img.icons8.com/doodle/48/000000/pizza--v1.png"/>Food Runner</h2>
         </div>
         <div>
   				<p>Fast and accurate delivery of orders from the kitchen to customer desks. Acting as a point of contact between the front of the house and the back of the house. Transferring food orders to cooks, focusing on priorities.</p>
@@ -169,7 +169,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-md-4 ftco-animate">
             <div class="media d-block text-center block-6 services">
               <div class="icon d-flex justify-content-center align-items-center mb-5">
-              	<span class="flaticon-diet"></span>
+              <img src="https://img.icons8.com/color/48/000000/healthy-food-calories-calculator.png"/>
               </div>
               <div class="media-body">
                 <h3 class="heading">Healthy Foods</h3>
