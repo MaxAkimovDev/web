@@ -346,12 +346,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <div class="col-lg-2 col-md-6 mb-5 mb-md-5">
              <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">Services</h2>
+              <h2 class="ftco-heading-2">Functions</h2>
               <ul class="list-unstyled">
-                <li>Cooked</li>
-                <li>Deliver</li>
-                <li>Quality Foods</li>
-                <li>Mixed</li>
+                <li><a href="<?php echo base_url(); ?>index.php/customer/home" class="py-2 d-block">Home</a></li>
+                <li><a href="<?php echo base_url(); ?>index.php/list_dish/dish_list_cust" class="py-2 d-block">List of dishes</a></li>
+                <li><a href="<?php echo base_url(); ?>index.php/cust_inf/information" class="py-2 d-block">My information</a></li>
+                <li><a href="<?php echo base_url(); ?>index.php/auth/logout" class="py-2 d-block">Log out</a></li>
+                <li></li>
               </ul>
             </div>
           </div>
@@ -360,7 +361,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <h2 class="ftco-heading-2">Have a Questions?</h2>
               <div class="block-23 mb-3">
                 <ul>
-                  <li><img src="https://img.icons8.com/ios/24/000000/marker.png"/><span class="text"> Campus Las Lagunillas, s/n, 23071 Jaén</span></li>
+                <li><img src="https://img.icons8.com/ios/24/000000/marker.png"/><span class="text"> Campus Las Lagunillas, s/n, 23071 Jaén</span></li>
                   <li><img src="https://img.icons8.com/ios/24/000000/number-pad.png"/><span class="text"> +34631673280</span></li>
                   <li><img src="https://img.icons8.com/ios/24/000000/filled-message.png"/><span class="text"> info@foodrunner.com</span></li>
                 </ul>
