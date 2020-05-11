@@ -136,7 +136,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="social d-md-flex pl-md-5 p-4 align-items-center">
             <ul class="social-icon">
               <li class="ftco-animate"><a href="https://twitter.com/login"><img src="https://img.icons8.com/doodle/24/000000/old-twitter-logo.png"/></a></li>
-              <li class="ftco-animate"><a href="https://www.facebook.com/"><img src="https://img.icons8.com/plasticine/24/000000/facebook-circled.png"/></a></li>
+              <li class="ftco-animate"><a href="https://www.facebook.com/"><img src="https://img.icons8.com/doodle/24/000000/facebook-new.png"/></a></li>
               <li class="ftco-animate"><a href="https://www.instagram.com/?hl=en"><img src="https://img.icons8.com/doodle/24/000000/instagram--v1.png"/></a></li>
             </ul>
           </div>

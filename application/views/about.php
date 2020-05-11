@@ -5,7 +5,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
  <html lang="en">
 <head>
-  <title>Food Runer</title>
+  <title>Food Runner</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -35,9 +35,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <body>
   	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
       <div class="container">
-          <a class="navbar-brand" href="<?php echo base_url(); ?>index.php/home/index"><span class="flaticon-pizza-1 mr-1"></span>Food<br><small>Runner</small></a>
+          <a class="navbar-brand" href="<?php echo base_url(); ?>index.php/home/index"><img src="https://img.icons8.com/cotton/64/000000/trainers.png"/>Food<br><small>Runner</small></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="oi oi-menu"></span> Menu
+          <img src="https://img.icons8.com/plasticine/32/000000/squared-menu.png"/> Menu
           </button>
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav ml-auto">
@@ -67,44 +67,43 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       </div>
     </section>
     
-
     <section class="ftco-intro">
-      <div class="container-wrap">
-        <div class="wrap d-md-flex">
-          <div class="info">
-            <div class="row no-gutters">
+    	<div class="container-wrap">
+    		<div class="wrap d-md-flex">
+	    		<div class="info">
+	    			<div class="row no-gutters">
+	    				<div class="col-md-4 d-flex ftco-animate">
+	    					<div class="icon"><img src="https://img.icons8.com/color/24/000000/ringing-phone.png"/></div>
+	    					<div class="text">
+	    						<h3>+34631673280</h3>
+	    						<p>Сall us in any time</p>
+	    					</div>
+	    				</div>
               <div class="col-md-4 d-flex ftco-animate">
-                <div class="icon"><span class="icon-phone"></span></div>
-                <div class="text">
-                  <h3>+34631673280</h3>
-                  <p>Сall us in any time</p>
-                </div>
-              </div>
-              <div class="col-md-4 d-flex ftco-animate">
-                <div class="icon"><span class="icon-phone"></span></div>
+                <div class="icon"><img src="https://img.icons8.com/color/24/000000/ringing-phone.png"/></div>
                 <div class="text">
                   <h3>+34633445669</h3>
                   <p>Сall us in any time</p>
                 </div>
               </div>
-              <div class="col-md-4 d-flex ftco-animate">
-                <div class="icon"><span class="icon-clock-o"></span></div>
-                <div class="text">
-                  <h3>Open Monday-Friday</h3>
-                  <p>8:00am - 9:00pm</p>
-                </div>
-              </div>
-            </div>
-          </div>
+	    				<div class="col-md-4 d-flex ftco-animate">
+	    					<div class="icon"><img src="https://img.icons8.com/color/24/000000/door.png"/></div>
+	    					<div class="text">
+	    						<h3>Open Monday-Friday</h3>
+	    						<p>8:00am - 9:00pm</p>
+	    					</div>
+	    				</div>
+	    			</div>
+	    		</div>
           <div class="social d-md-flex pl-md-5 p-4 align-items-center">
             <ul class="social-icon">
-              <li class="ftco-animate"><a href="https://twitter.com/login"><span class="icon-twitter"></span></a></li>
-              <li class="ftco-animate"><a href="https://www.facebook.com/"><span class="icon-facebook"></span></a></li>
-              <li class="ftco-animate"><a href="https://www.instagram.com/?hl=en"><span class="icon-instagram"></span></a></li>
+              <li class="ftco-animate"><a href="https://twitter.com/login"><img src="https://img.icons8.com/doodle/24/000000/old-twitter-logo.png"/></a></li>
+              <li class="ftco-animate"><a href="https://www.facebook.com/"><img src="https://img.icons8.com/doodle/24/000000/facebook-new.png"/></a></li>
+              <li class="ftco-animate"><a href="https://www.instagram.com/?hl=en"><img src="https://img.icons8.com/doodle/24/000000/instagram--v1.png"/></a></li>
             </ul>
           </div>
-        </div>
-      </div>
+    		</div>
+    	</div>
     </section>
 
     <section class="ftco-about d-md-flex">
