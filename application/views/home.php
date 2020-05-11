@@ -111,14 +111,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	    		<div class="info">
 	    			<div class="row no-gutters">
 	    				<div class="col-md-4 d-flex ftco-animate">
-	    					<div class="icon"><img src="https://img.icons8.com/color/16/000000/phonelink-ring.png"/></div>
+	    					<div class="icon"><img src="https://img.icons8.com/color/24/000000/ringing-phone.png"/></div>
 	    					<div class="text">
 	    						<h3>+34631673280</h3>
 	    						<p>Сall us in any time</p>
 	    					</div>
 	    				</div>
               <div class="col-md-4 d-flex ftco-animate">
-                <div class="icon"><img src="https://img.icons8.com/color/16/000000/phonelink-ring.png"/></div>
+                <div class="icon"><img src="https://img.icons8.com/color/24/000000/ringing-phone.png"/></div>
                 <div class="text">
                   <h3>+34633445669</h3>
                   <p>Сall us in any time</p>
