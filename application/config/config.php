@@ -521,3 +521,10 @@ $config['rewrite_short_tags'] = FALSE;
 | Array:		array('10.0.1.200', '192.168.5.0/24')
 */
 $config['proxy_ips'] = '';
+
+
+$config['upload_bucket'] = 'wbt-1-amo.appspot.com';
+
+$config['upload_path'] = 'gs://' . $config['upload_bucket'];
+// Prefix for building public URL to the uploaded file
+$config['upload_prefix'] = 'https://storage.cloud.google.com/' . $config['upload_bucket'] . '/';

@@ -6,8 +6,8 @@ class Dish_model extends CI_Model
 	
 	public function add_dish($id, $name)
 	{
-		$image =$this->upload->data();
-
+		// $image =$this->upload->data();
+		$image= $this->config->item('upload_prefix'). $this->upload->data('file_name');
   //insert data from add_product input
 	  $data = array(
 	   'name' => $this->input->post('name'),
@@ -16,7 +16,7 @@ class Dish_model extends CI_Model
 	   'weight' => $this->input->post('weight'),
 	   'rest_name' => $name,
 	   'rest_id' => $id,
-	   'photo' => $image['file_name']
+	   'photo' => $image
 	  );
 	  	$this->db->insert('list', $data);
 	}

@@ -16,13 +16,21 @@ class Add extends CI_Controller
 	    $this->form_validation->set_rules("price", "price", "required");
 	    $this->form_validation->set_rules("weight", "weight", "required");
 	    
-	    $config['upload_path'] = './uploads/';
-	    $config['allowed_types']  = 'gif|jpg|png|jpeg';
-	    $config['max_size']  = 2048;
-	    $file_name="image".time();
-	    $config['file_name']=$file_name;
-	    $this->upload->initialize($config);
-	    $field_name = "image";
+	    // $config['upload_path'] = './uploads/';
+	    // $config['allowed_types']  = 'gif|jpg|png|jpeg';
+	    // $config['max_size']  = 2048;
+	    // $file_name="image".time();
+	    // $config['file_name']=$file_name;
+	    // $this->upload->initialize($config);
+		// $field_name = "image";
+		$config['upload_path'] = $this->config->item('upload_path');
+		$config['allowed_types']  = 'gif|jpg|png|jpeg';
+		$config['max_size']  = 4048;
+		$file_name="image".time();
+		$config['file_name']=$file_name;
+		$config['encrypt_name'] = TRUE;
+		$this->upload->initialize($config);
+		$field_name = "file";
 		if($this->form_validation->run()==TRUE)
 		{
 			if (!$this->upload->do_upload($field_name)) {

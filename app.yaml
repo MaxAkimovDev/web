@@ -11,3 +11,6 @@ handlers:
 # Serve php scripts.
 - url: /.*
   script: index.php
+
+env_variables:
+  GOOGLE_STORAGE_BUCKET: "wbt-1-amo.appspot.com"

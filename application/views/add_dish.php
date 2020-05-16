@@ -73,7 +73,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <table  align="center" cellpadding="25"cellspacing="10" width="70%" height="120%">
                 <tr>
                   <td><h5>Image:</h5></td>
-                  <td><input name="image" type="file" class="form-control-file" id="image" aria-describedby="fileHelp"/></td>
+                  <td><input name="file" type="file" class="form-control-file" id="image" aria-describedby="fileHelp"/></td>
                   <td><h5>Name:</h5></td> 
                   <td>
                       <?php $error =form_error("name", "<small class='text-danger'>", '</small>');?>
