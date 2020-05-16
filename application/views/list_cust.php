@@ -71,7 +71,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <tr>
                   <td>
                     <a href="<?php echo base_url(); ?>index.php/items/item1">
-                    <img style ="height: 300px;"src="<?php echo base_url("uploads/".$item->photo) ?>" />
+                    <img style ="height: 300px;"src="<?php echo $item->photo ?>" />
                     </a>
                   </td>
                   <td>
